@@ -1,0 +1,221 @@
+/* reset */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+
+/*body*/
+
+body {
+    background-color: #e0ffff;
+    font-family: 'Ubuntu', sans-serif;   
+}
+
+/*header*/
+
+header {
+    background-image: url(../img/background-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+img {
+    height: auto;
+    width: auto;
+}
+
+.logoPrincipal {
+    padding: 20px;
+    max-height: 300px;
+    max-width: 250px;
+}
+
+/* nav */
+
+nav {
+    background-color: black;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: groove black;    
+    border-left: none;
+    border-right: none;
+    }
+
+nav ul li {
+    list-style-type: none;    
+    margin: 0px 15px;    
+    display: inline-block;    
+}
+
+nav ul li a:hover{
+    color: black;
+    background-color: #e0ffff
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 2px 8px 4px 8px;
+    border-radius: 10px;
+}
+
+a{
+    color: white;
+}
+
+/* modificaciones nevbar bs */
+
+.navbar {    
+    padding: 0;
+}
+
+.contenedor-hamburguesa {
+    padding: 0;
+    background-color: black;
+}
+
+.navbar-toggler {
+    margin: 0.6rem;
+    border: 1.5px solid white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-ul {
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    padding: 1rem;
+}
+
+/*main*/
+
+.pMain {
+    height: 70vh;
+    text-align: center;
+}
+
+.mainSubtitle {    
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.mainFrame{
+    margin-top: 30px;
+    padding: 0;
+    width: 50vh;
+}
+
+.p1 {
+    text-align: left;
+    font-size: 15px;
+    padding: 40px;
+    margin: 10px;
+}
+
+.imgNosotros {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0px 0px 40px 0px;
+    border: 3px groove black;    
+    border-radius: 5px;
+}
+
+main div ul {
+    padding: 60px;
+    margin-bottom: 100px;
+}
+
+main div ul li {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 5px;
+    text-align: justify;
+}
+
+.imgMuestra{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 30px;    
+    border: 3px groove black;    
+    border-radius: 5px;
+}
+
+fieldset{
+    padding: 30px;
+    margin: 75px;
+    text-align: center;
+}
+
+legend{
+    padding: 10px;
+    font-size: 20px;
+}
+
+label{
+        margin: 10px;
+}
+
+input{
+    margin: 10px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+select{
+    margin: 10px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+.whatsappIcon{
+    max-width: 70px;
+    position: fixed;    
+    top: 565px;
+    right: 10px;
+}
+
+/*footer*/
+
+footer {
+    background-image: url(../img/background-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    text-align: center;    
+    color: white;
+    height: 150px;    
+}
+
+.footerMain {
+    font-size: 12px;
+    font-weight: 200;
+    margin: 5px;
+    padding: 5px;
+}
+
+.footerRr {
+    font-size: 10px;
+    font-weight: 200;
+    margin: 5px;
+    padding: 5px;
+}
+
